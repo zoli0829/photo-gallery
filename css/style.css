@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  max-width: 900px;
+  margin: auto;
+}
+
+#myInput {
+  width: 65%;
+  height: 50px;
+  margin: 25px auto 25px auto;
+  text-align: start;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  border: lightgrey 2px solid;
+  border-radius: 5px;
+  padding-left: 8px;
+}
+
+.gallery {
+  display: grid;
+  max-width: 850px;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
+  grid-gap: 15px;
+}
